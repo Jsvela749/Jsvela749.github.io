@@ -162,7 +162,7 @@ h1 {
 
 .proyectos-contenedor {
     padding: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .overlay {
@@ -388,6 +388,16 @@ footer {
 
     .overlay i {
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .testimonios .carousel-item {
+        height: 100%;
+    }
+
+    .proyectos-contenedor {
+        padding: 30px 12px;
     }
 }
 
