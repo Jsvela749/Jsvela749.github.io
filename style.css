@@ -176,9 +176,9 @@ h1 {
 }
 
 .overlay p {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
 }
 
 .proyecto {
@@ -195,6 +195,7 @@ h1 {
 
 .overlay .iconos-contenedor {
     display: flex;
+    justify-content: center;
 }
 
 .overlay i {
@@ -392,6 +393,15 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+
+    .proyectos-contenedor .overlay p {
+        font-size: 15px;
+    }
+
+    .proyectos-contenedor i {
+        margin-bottom: 8px;
+    }
+
     .testimonios .carousel-item {
         height: 100%;
     }
