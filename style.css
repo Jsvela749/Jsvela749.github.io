@@ -1,6 +1,7 @@
 /* Barra de navegación */
 
 .navbar {
+    font-size: 18px;
     padding: 2rem;
     background-color: #f5f6f7;
 }
@@ -376,6 +377,7 @@ footer {
 
 .derechos-de-autor {
     font-size: 15px;
+    text-align: center;
     color: #aeaeae;
     padding: 20px;
 }
@@ -415,6 +417,11 @@ footer {
     .navbar-brand {
         display: none;
     }
+
+    .sobre-mi {
+        height: 580px;
+        padding: 10px 30px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -432,5 +439,7 @@ footer {
     .hero-inferior-imagen {
         max-width: 600px;
     }
+
+
 
 }
